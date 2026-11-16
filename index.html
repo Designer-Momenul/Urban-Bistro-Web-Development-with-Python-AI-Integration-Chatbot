@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Bistro Restaurant - Navbar</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts & Font Awesome Icons -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://googleapis.com" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar" id="navbar">
+        <!-- Brand Logo -->
+        <a href="#" class="logo">
+            <i class="fa-solid fa-utensils"></i>
+            <div class="logo-text">
+                Urban <span>Bistro</span>
+                <small>RESTAURANT</small>
+            </div>
+        </a>
+
+        <!-- Navigation Links -->
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home" class="nav-item active">Home</a></li>
+            <li><a href="#menu" class="nav-item">Our Menu</a></li>
+            <li><a href="#specials" class="nav-item">Chef's Specials</a></li>
+            <li><a href="#about" class="nav-item">About</a></li>
+            <li><a href="#contact" class="nav-item">Contact</a></li>
+            <li><a href="#book" class="btn-book">Reserve Table</a></li>
+        </ul>
+
+        <!-- Mobile Menu Button -->
+        <div class="menu-toggle" id="mobileMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+	<!-- Hero Section -->
+<section class="hero-section" id="home">
+    <div class="hero-overlay"></div>
+    
+    <div class="hero-content">
+        <div class="hero-badge">
+            <i class="fa-solid fa-star"></i>
+            <span>FINE DINING & CULINARY ART</span>
+            <i class="fa-solid fa-star"></i>
+        </div>
+
+        <h1 class="hero-title">
+            Taste the Essence of <br>
+            <span>Urban Bistro</span> Restaurant
+        </h1>
+
+        <p class="hero-subtitle">
+            Indulge in handcrafted dishes, wood-fired specialties, and an unforgettable ambiance designed for true food lovers.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#book" class="btn-primary">
+                <span>Book a Table</span>
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <a href="#menu" class="btn-secondary">
+                <i class="fa-solid fa-book-open"></i>
+                <span>Explore Menu</span>
+            </a>
+        </div>
+
+        <!-- Bottom Quick Highlights -->
+        <div class="hero-stats">
+            <div class="stat-item">
+                <strong>4.9/5</strong>
+                <span>Customer Rating</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <strong>100%</strong>
+                <span>Organic Ingredients</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <strong>Open Daily</strong>
+                <span>12:00 PM – 12:00 AM</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+	
+	
+	<!-- Food Menu Section -->
+<section class="menu-section" id="menu">
+    <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+            <span class="subtitle">DISCOVER OUR TASTE</span>
+            <h2 class="title">Urban Bistro <span>Special Menu</span></h2>
+            <p class="description">Crafted with fresh ingredients and passion by our master chefs.</p>
+        </div>
+
+        <!-- Menu Grid -->
+        <div class="menu-grid">
+            <!-- Item 1 -->
+            <div class="menu-card">
+                <div class="menu-img">
+                    <img src="images/img-001.png" alt="Grilled Ribeye Steak">
+                    <span class="badge">Chef's Choice</span>
+                </div>
+                <div class="menu-info">
+                    <div class="menu-title-price">
+                        <h3>Grilled Ribeye Steak</h3>
+                        <span class="price">$28.50</span>
+                    </div>
+                    <p>Prime beef ribeye grilled to perfection, served with garlic herb butter and roasted asparagus.</p>
+                </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="menu-card">
+                <div class="menu-img">
+                    <img src="images/img-002.png" alt="Truffle Mushroom Pasta">
+                    <span class="badge">Popular</span>
+                </div>
+                <div class="menu-info">
+                    <div class="menu-title-price">
+                        <h3>Truffle Mushroom Pasta</h3>
+                        <span class="price">$19.00</span>
+                    </div>
+                    <p>Creamy fettuccine tossed with wild forest mushrooms, black truffle oil, and aged parmesan.</p>
+                </div>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="menu-card">
+                <div class="menu-img">
+                    <img src="images/img-003.png" alt="Pan-Seared Salmon">
+                </div>
+                <div class="menu-info">
+                    <div class="menu-title-price">
+                        <h3>Pan-Seared Salmon</h3>
+                        <span class="price">$24.00</span>
+                    </div>
+                    <p>Crispy skin Atlantic salmon with lemon butter caper sauce and mashed baby potatoes.</p>
+                </div>
+            </div>
+
+            <!-- Item 4 -->
+            <div class="menu-card">
+                <div class="menu-img">
+                    <img src="images/img-004.png" alt="Urban Signature Burger">
+                    <span class="badge">Best Seller</span>
+                </div>
+                <div class="menu-info">
+                    <div class="menu-title-price">
+                        <h3>Urban Signature Burger</h3>
+                        <span class="price">$16.50</span>
+                    </div>
+                    <p>Juicy double wagyu patty, smoked cheddar, caramelized onions, and house brioche bun.</p>
+                </div>
+            </div>
+
+            <!-- Item 5 -->
+            <div class="menu-card">
+                <div class="menu-img">
+                    <img src="images/img-005.png" alt="Molten Lava Cake">
+                </div>
+                <div class="menu-info">
+                    <div class="menu-title-price">
+                        <h3>Molten Lava Cake</h3>
+                        <span class="price">$11.00</span>
+                    </div>
+                    <p>Warm dark Belgian chocolate cake with a gooey center, served with vanilla bean gelato.</p>
+                </div>
+            </div>
+
+            <!-- Item 6 -->
+            <div class="menu-card">
+                <div class="menu-img">
+                    <img src="images/img-006.png" alt="Smoked Berry Mocktail">
+                </div>
+                <div class="menu-info">
+                    <div class="menu-title-price">
+                        <h3>Smoked Berry Elixir</h3>
+                        <span class="price">$8.50</span>
+                    </div>
+                    <p>Fresh muddled blackberries, rosemary infusion, lime juice, and sparkling tonic.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Chef's Specials Section -->
+<section class="specials-section" id="specials">
+    <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+            <span class="subtitle">EXCLUSIVE SELECTIONS</span>
+            <h2 class="title">Chef's <span>Signature Specials</span></h2>
+            <p class="description">Limited-edition culinary creations prepared daily with rare, seasonal ingredients.</p>
+        </div>
+
+        <!-- Featured Special Highlight -->
+        <div class="featured-special">
+            <div class="featured-img">
+                <img src="images/tomaha.png" alt="Wagyu Tomahawk Steak">
+                <div class="special-ribbon">Dish of the Day</div>
+            </div>
+            <div class="featured-content">
+                <span class="tag">CHEF'S MASTERPIECE</span>
+                <h3>24K Gold-Dusted Wagyu Tomahawk</h3>
+                <p class="story">Dry-aged for 45 days and wood-fired over oak charcoal. Served with roasted bone marrow, truffle jus, and smoked sea salt.</p>
+                
+                <ul class="special-perks">
+                    <li><i class="fa-solid fa-fire-flame-curved"></i> Wood-Fired Perfection</li>
+                    <li><i class="fa-solid fa-wine-glass"></i> Free Sommelier Wine Pairing</li>
+                </ul>
+
+                <div class="featured-footer">
+                    <div class="price-box">
+                        <span class="old-price">$95.00</span>
+                        <span class="current-price">$78.00</span>
+                    </div>
+                    <a href="#book" class="btn-special">Order Special</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Secondary Specials Grid -->
+        <div class="specials-grid">
+            <!-- Special Card 1 -->
+            <div class="special-box">
+                <div class="special-thumb">
+                    <img src="images/img-003.png" alt="Lobster Thermidor">
+                </div>
+                <div class="special-details">
+                    <div class="top-row">
+                        <h4>Butter Poached Lobster</h4>
+                        <span class="s-price">$42.00</span>
+                    </div>
+                    <p>Whole Maine lobster tail baked in a creamy cognac and gruyère cheese glaze.</p>
+                    <span class="availability"><i class="fa-regular fa-clock"></i> Available After 6:00 PM</span>
+                </div>
+            </div>
+
+            <!-- Special Card 2 -->
+            <div class="special-box">
+                <div class="special-thumb">
+                    <img src="images/img-006.png" alt="Saffron Duck Confit">
+                </div>
+                <div class="special-details">
+                    <div class="top-row">
+                        <h4>Saffron Glazed Duck Confit</h4>
+                        <span class="s-price">$34.50</span>
+                    </div>
+                    <p>Slow-cooked crispy duck leg paired with wild berry reduction and parsnip purée.</p>
+                    <span class="availability"><i class="fa-regular fa-clock"></i> Weekend Special</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- About Us Section -->
+<section class="about-section" id="about">
+    <div class="container">
+        <div class="about-wrapper">
+            <!-- Left Side: Image Composition -->
+            <div class="about-images">
+                <div class="main-img">
+                    <img src="images/urban.png" alt="Urban Bistro Interior">
+                </div>
+                <div class="sub-img">
+                    <img src="images/executive.png" alt="Executive Chef">
+                </div>
+                <div class="exp-badge">
+                    <span class="years">15+</span>
+                    <span class="exp-text">Years of Culinary Excellence</span>
+                </div>
+            </div>
+
+            <!-- Right Side: Story & Features -->
+            <div class="about-content">
+                <span class="subtitle">OUR STORY</span>
+                <h2 class="title">Where Tradition Meets <span>Modern Fine Dining</span></h2>
+                <p class="lead-text">Founded in 2011, Urban Bistro Restaurant was born from a simple passion: serving unforgettable dishes made from locally sourced, organic ingredients.</p>
+                <p class="body-text">Every plate tells a story of craftsmanship. Our executive chefs blend classic European techniques with bold contemporary flavors, creating an atmosphere that feels both luxurious and welcoming.</p>
+
+                <!-- Key Highlights -->
+                <div class="about-features">
+                    <div class="feature-item">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-leaf"></i>
+                        </div>
+                        <div>
+                            <h4>Fresh Organic Produce</h4>
+                            <p>Farm-to-table ingredients delivered daily.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-award"></i>
+                        </div>
+                        <div>
+                            <h4>Award-Winning Chefs</h4>
+                            <p>Crafted by internationally acclaimed culinary artists.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Chef Signature & CTA -->
+                <div class="about-footer">
+                    <a href="#menu" class="btn-about">Explore Full Menu</a>
+                    <div class="chef-sign">
+                        <span class="sign-name">Marco Rossi</span>
+                        <small>Executive Head Chef</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Contact Us Section -->
+<section class="contact-section" id="contact">
+    <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+            <span class="subtitle">GET IN TOUCH</span>
+            <h2 class="title">Contact & <span>Reservations</span></h2>
+            <p class="description">Have a question, special request, or want to book a private dining experience? Reach out to us anytime.</p>
+        </div>
+
+        <div class="contact-wrapper">
+            <!-- Left Side: Contact Information Cards -->
+            <div class="contact-info">
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div class="info-text">
+                        <h4>Our Location</h4>
+                        <p>45 Gulshan Avenue, Level 3<br>Dhaka 1212, Bangladesh</p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fa-solid fa-phone-volume"></i>
+                    </div>
+                    <div class="info-text">
+                        <h4>Phone & Reservations</h4>
+                        <p>+0000000000<br>+00000000</p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div class="info-text">
+                        <h4>Email Us</h4>
+                        <p>reservations@urbanbistro.com<br>info@urbanbistro.com</p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fa-regular fa-clock"></i>
+                    </div>
+                    <div class="info-text">
+                        <h4>Opening Hours</h4>
+                        <p>Mon – Fri: 12:00 PM – 11:00 PM<br>Sat – Sun: 11:00 AM – 12:00 AM</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Side: Contact & Inquiry Form -->
+            <div class="contact-form-box" id="book">
+                <h3>Send Us a Message</h3>
+                <form action="#" method="POST" class="contact-form">
+                    <div class="form-row">
+                        <div class="input-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" placeholder="Enter your email" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="input-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" placeholder="+880 1XXX-XXXXXX" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="subject">Inquiry Type</label>
+                            <select id="subject">
+                                <option value="reservation">Table Reservation</option>
+                                <option value="private">Private Event / Party</option>
+                                <option value="catering">Catering Service</option>
+                                <option value="feedback">General Feedback</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="message">Special Requests or Message</label>
+                        <textarea id="message" rows="4" placeholder="Tell us about your preferred date, guest count, or dietary needs..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-submit">
+                        <span>Send Message</span>
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+  <!-- Footer Section -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <!-- Column 1: Brand Info & Socials -->
+            <div class="footer-col brand-col">
+                <a href="#" class="footer-logo">
+                    <i class="fa-solid fa-utensils"></i>
+                    <div class="logo-text">
+                        Urban <span>Bistro</span>
+                        <small>RESTAURANT</small>
+                    </div>
+                </a>
+                <p class="footer-desc">
+                    Experience the art of fine dining where every dish is crafted with passion, locally sourced ingredients, and timeless culinary tradition.
+                </p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <!-- Column 2: Quick Links -->
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Our Menu</a></li>
+                    <li><a href="#specials">Chef's Specials</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact & Reserve</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 3: Opening Hours -->
+            <div class="footer-col">
+                <h4>Opening Hours</h4>
+                <ul class="hours-list">
+                    <li>
+                        <span>Monday - Thursday</span>
+                        <strong>12:00 PM - 11:00 PM</strong>
+                    </li>
+                    <li>
+                        <span>Friday - Saturday</span>
+                        <strong>12:00 PM - 12:30 AM</strong>
+                    </li>
+                    <li>
+                        <span>Sunday</span>
+                        <strong>11:00 AM - 11:00 PM</strong>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Column 4: Newsletter -->
+            <div class="footer-col">
+                <h4>Newsletter</h4>
+                <p class="newsletter-text">Subscribe to receive updates on seasonal menus, chef's events, and exclusive offers.</p>
+                <form class="newsletter-form" action="#">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit" aria-label="Subscribe">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Bottom Copyright Bar -->
+        <div class="footer-bottom">
+            <p>&copy; 2026 <span>Urban Bistro Restaurant</span>. All Rights Reserved.</p>
+            <div class="bottom-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Back to Top Button -->
+<button id="scrollTopBtn" class="scroll-top-btn" aria-label="Scroll to top">
+    <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+<!-- AI Chatbot Widget -->
+<div class="chatbot-wrapper">
+    <!-- Floating Chat Toggle Button -->
+    <button class="chat-toggle-btn" id="chatToggleBtn" aria-label="Open AI Concierge">
+        <i class="fa-solid fa-robot" id="chatIcon"></i>
+        <span class="pulse-ring"></span>
+    </button>
+
+    <!-- Chat Window -->
+    <div class="chat-window" id="chatWindow">
+        <!-- Header -->
+        <div class="chat-header">
+            <div class="bot-profile">
+                <div class="bot-avatar">
+                    <i class="fa-solid fa-utensils"></i>
+                </div>
+                <div>
+                    <h4>Urban Bistro AI</h4>
+                    <span class="status"><i class="fa-solid fa-circle"></i> Online Concierge</span>
+                </div>
+            </div>
+            <button class="close-chat" id="closeChatBtn" aria-label="Close Chat">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+
+        <!-- Messages Area -->
+        <div class="chat-body" id="chatBody">
+            <div class="message bot-message">
+                <p>Welcome to <strong>Urban Bistro Restaurant</strong>! 🍽️ How can I assist you with our menu, chef's specials, or table reservations today?</p>
+                <span class="msg-time">Just now</span>
+            </div>
+        </div>
+
+        <!-- Quick Suggestion Chips -->
+        <div class="quick-replies" id="quickReplies">
+            <button type="button" data-msg="Show me today's specials">Chef's Specials</button>
+            <button type="button" data-msg="I want to book a table">Book a Table</button>
+            <button type="button" data-msg="What are your opening hours?">Opening Hours</button>
+        </div>
+
+        <!-- Input Area -->
+        <form class="chat-footer" id="chatForm">
+            <input type="text" id="chatInput" placeholder="Ask something..." autocomplete="off" required>
+            <button type="submit" id="sendBtn" aria-label="Send Message">
+                <i class="fa-solid fa-paper-plane"></i>
+            </button>
+        </form>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
